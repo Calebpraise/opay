@@ -28,7 +28,7 @@ class _ProfilePageState extends State<ProfilePage> {
                         // SizedBox(
                         //   height: 20,
                         // ),
-                        SizedBox(
+                        const SizedBox(
                           width: 12,
                           height: 20,
                         ),
@@ -37,21 +37,21 @@ class _ProfilePageState extends State<ProfilePage> {
                               horizontal: 8, vertical: 35),
                           child: Row(
                             children: [
-                              SizedBox(
+                              const SizedBox(
                                 //   width: 12,
                                 height: 20,
                               ),
                               Container(
                                 decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(3)),
-                                child: Icon(Icons.person,
+                                child: const Icon(Icons.person,
                                     color: Colors.red, size: 40),
                               ),
                             ],
                           ),
                         ),
 
-                        SizedBox(
+                        const SizedBox(
                           width: 6,
                           //  height: 90,
                         ),
